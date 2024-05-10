@@ -1,0 +1,9 @@
+net
+org
+info
+io
+co
+de
+co.uk
+ca
+xyz
