@@ -1,0 +1,571 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Login to your DomCop Account - DomCop</title>
+        <meta name="description" content="Login to DomCop">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/>
+        <meta name="robots" content="index, follow"/>
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- basic styles -->
+
+  <link href="https://www.domcop.com/assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://www.domcop.com/assets/css/font-awesome.min.css"/>
+
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="https://www.domcop.com/assets/css/font-awesome-ie7.min.css"/>
+  <![endif]-->
+
+  <!-- page specific plugin styles -->
+
+  <!-- fonts -->
+
+  <link rel="stylesheet" href="https://www.domcop.com/assets/css/ace-fonts.css"/>
+
+  <!-- ace styles -->
+
+  <link rel="stylesheet" href="https://www.domcop.com/assets/css/ace.min.css"/>
+  <link rel="stylesheet" href="https://www.domcop.com/assets/css/ace-rtl.min.css"/>
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://www.domcop.com/assets/css/ace-ie.min.css"/>
+  <![endif]-->
+
+  <!-- inline styles related to this page -->
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+  <!--[if lt IE 9]>
+  <script src="https://www.domcop.com/assets/js/html5shiv.js"></script>
+  <script src="https://www.domcop.com/assets/js/respond.min.js"></script>
+  <![endif]-->
+
+  
+    <style>
+      .hidden-inline-xs {
+        display: inline !important;
+      }
+
+      .visible-inline-xs {
+        display: none !important;
+      }
+
+      @media (max-width: 600px) {
+        .hidden-inline-xs {
+          display: none !important;
+        }
+
+        .visible-inline-xs {
+          display: inline !important;
+        }
+      }
+
+      div.sprite-icon {
+        background: url('images/icon-sprite.png');
+      }
+
+      .grecaptcha-badge {
+        visibility: hidden;
+      }
+
+      .recaptcha-declaration {
+        font-size: 11px;
+      }
+
+      .login-recaptcha-declaration {
+        bottom: 47px;
+        position: absolute;
+      }
+
+      .register-recaptcha-declaration {
+        margin-top: 20px;
+      }
+
+      .passreset-recaptcha-declaration {
+        bottom: 47px;
+        position: absolute;
+      }
+
+      .login-layout .widget-box .widget-main {
+        padding-bottom: 10px;
+      }
+    </style>
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5EN1D11R0G"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-5EN1D11R0G');
+	</script>
+
+    <!-- Global site tag (gtag.js) - Google Ads: 957356492 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-957356492"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag('js', new Date());
+
+      gtag('config', 'AW-957356492');
+    </script>
+    <!-- DO NOT MODIFY -->
+  
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body class="login-layout">
+<div class="g-recaptcha " data-callback="SubmitAppropriateForm" data-size="invisible"
+     data-sitekey="6LfLwI4UAAAAADRoaQZs3hBl9xzsmwqz126iqYEq"></div>
+<div class="main-container">
+  <div class="main-content">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="login-container">
+          <div class="center">
+            <h4 class="blue">&copy; Axeman Tech</h4>
+          </div>
+
+
+          <a href="https://www.domcop.com/"><img src="https://www.domcop.com/images/DomCopLoginLogo.png"
+                                                   alt="DomCop - Expired Domains List"
+                                                   title="DomCop - Expired Domains List" class="img-responsive"/></a>
+          <div class="space-6"></div>
+                    <div class="position-relative">
+            <div id="login-box" class="login-box visible widget-box no-border">
+              <div class="widget-body">
+                <div class="widget-main">
+                  <h4 class="header blue lighter bigger">
+                    <i class="icon-coffee green"></i>
+                    <span class="hidden-inline-xs">Please Enter Your Information</span>
+                    <span class="visible-inline-xs">Please Enter Your Info</span>
+                  </h4>
+
+                  <div class="space-6"></div>
+
+                  <form method="post" name="loginForm" action="https://www.domcop.com/login">
+                    <input type="hidden" name="__csrf_token" value="ebPu0RfrNagQjSnBfheRmkUHxgqyRBNeaLmWJjyuheXWI5JxAyEvmuXZemx0MtDr"/>
+                    <input type="hidden" name="uri" value="">
+                    <fieldset>
+                      <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input name="email" value="" type="text" class="form-control"
+                                     placeholder="Email Address"/>
+															<i class="icon-user"></i>
+														</span>
+                      </label>
+
+                      <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input name="password" type="password" class="form-control" placeholder="Password"/>
+															<i class="icon-lock"></i>
+														</span>
+                      </label>
+
+
+                      <div class="space"></div>
+
+                      <div class="clearfix">
+                        <label class="inline">
+                          <input type="checkbox" class="ace" name="RememeberMe"/>
+                          <span class="lbl"> Remember Me</span>
+                        </label>
+
+
+                        <button type="button" class="width-35 pull-right btn btn-sm btn-primary"
+                                id="button-submit-login-form">
+                          <i class="icon-key"></i>
+                          Login
+                        </button>
+
+
+                      </div>
+
+
+                      <div class="space-24"></div>
+                      <div class="recaptcha-declaration login-recaptcha-declaration">
+                        <p>
+                          This site is protected by reCAPTCHA and the Google
+                          <a target="_blank" href="https://policies.google.com/privacy">Privacy Policy</a> and
+                          <a target="_blank" href="https://policies.google.com/terms">Terms of Service</a> apply.
+                        </p>
+                      </div>
+                    </fieldset>
+                  </form>
+
+
+                </div><!-- /widget-main -->
+
+                <div class="toolbar clearfix">
+                  <div>
+                    <a href="#" onclick="show_box('forgot-box'); return false;" class="forgot-password-link">
+                      <i class="icon-arrow-left"></i>
+                      I forgot my password
+                    </a>
+                  </div>
+
+                  <div>
+                    <a href="#" onclick="show_box('signup-box'); return false;" class="user-signup-link">
+                      I want to register
+                      <i class="icon-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div><!-- /widget-body -->
+            </div><!-- /login-box -->
+
+            <div id="forgot-box" class="forgot-box widget-box no-border">
+              <div class="widget-body">
+                <div class="widget-main">
+                  <h4 class="header red lighter bigger">
+                    <i class="icon-key"></i>
+                    Reset Password
+                  </h4>
+
+                  <div class="space-6"></div>
+                  <p>
+                    Enter your email address
+                  </p>
+
+                  <form method="post" name="forgotPasswordForm" action="https://www.domcop.com/forgotPassword">
+                    <input type="hidden" name="__csrf_token" value="ebPu0RfrNagQjSnBfheRmkUHxgqyRBNeaLmWJjyuheXWI5JxAyEvmuXZemx0MtDr"/>
+                    <fieldset>
+                      <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="email" class="form-control" placeholder="Email" name="email"
+                                     value=""/>
+															<i class="icon-envelope"></i>
+														</span>
+                      </label>
+
+                      <div class="clearfix">
+                        <button type="button" class="pull-right btn btn-sm btn-danger"
+                                id="button-submit-forgot-password-form">
+                          <i class="icon-lightbulb"></i>
+                          Reset Password!
+                        </button>
+                      </div>
+
+                      <div class="space-24"></div>
+
+                      <div class="recaptcha-declaration passreset-recaptcha-declaration">
+                        <p>
+                          This site is protected by reCAPTCHA and the Google
+                          <a target="_blank" href="https://policies.google.com/privacy">Privacy Policy</a> and
+                          <a target="_blank" href="https://policies.google.com/terms">Terms of Service</a> apply.
+
+                        </p>
+                      </div>
+
+                    </fieldset>
+                  </form>
+                </div><!-- /widget-main -->
+
+                <div class="toolbar center">
+                  <a href="#" onclick="show_box('login-box'); return false;" class="back-to-login-link">
+                    I want to login
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div>
+              </div><!-- /widget-body -->
+            </div><!-- /forgot-box -->
+
+            <div id="signup-box" class="signup-box widget-box no-border">
+              <div class="widget-body">
+                <div class="widget-main">
+                  <h4 class="header green lighter">
+                    <i class="icon-group blue"></i>
+                    <b>Register an Account</b>
+                  </h4>
+
+                  <div class="space-6"></div>
+                  <p> Enter your details to begin: </p>
+
+                  <form method="post" name="registerForm" action="https://www.domcop.com/register?plan=">
+                    <input type="hidden" name="__csrf_token" value="ebPu0RfrNagQjSnBfheRmkUHxgqyRBNeaLmWJjyuheXWI5JxAyEvmuXZemx0MtDr"/>
+                    <input type="hidden" name="uri" value="">
+                    <fieldset>
+                      <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input name="full_name" type="text" value="" class="form-control"
+                                     placeholder="Name"/>
+															<i class="ace-icon fa fa-user"></i>
+														</span>
+                      </label>
+
+                      <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input name="emailAddress" value="" type="email" class="form-control"
+                                     placeholder="Email"/>
+															<i class="icon-envelope"></i>
+														</span>
+                      </label>
+
+                      <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="password" class="form-control" placeholder="Password" type="password"
+                                     name="password"/>
+															<i class="icon-lock"></i>
+														</span>
+                      </label>
+
+
+                                            <label class="block">
+                        <input type="checkbox" class="ace" name="allow_newsletter" checked/>
+                        <span class="lbl">
+															<small>Subscribe to our #1 PBN setup guide (3 emails)</small>
+														</span>
+                      </label>
+
+
+                      <div class="clearfix">
+                        <button type="reset" class="width-30 pull-left btn btn-sm">
+                          <i class="icon-refresh"></i>
+                          Reset
+                        </button>
+
+                        <button type="button" class="width-65 pull-right btn btn-sm btn-success"
+                                id="button-submit-register-form">
+                          Sign me up                          <i class="icon-arrow-right icon-on-right"></i>
+                        </button>
+                      </div>
+
+                      <div class="recaptcha-declaration register-recaptcha-declaration">
+                        <p>
+                          This site is protected by reCAPTCHA and the Google
+                          <a target="_blank" href="https://policies.google.com/privacy">Privacy Policy</a> and
+                          <a target="_blank" href="https://policies.google.com/terms">Terms of Service</a> apply.
+
+                        </p>
+                      </div>
+
+                    </fieldset>
+                  </form>
+                </div>
+
+
+                <div class="toolbar center">
+                  <a href="#" onclick="show_box('login-box'); return false;" class="back-to-login-link">
+                    <i class="icon-arrow-left"></i> I want to login
+                  </a>
+                </div>
+                
+                <br/><br/>
+                                  <center><img src="https://www.domcop.com//homeassets/img/customers/paolo-mauroner.png"
+                               alt="Paolo Mauroner, Italy" class="text-center"/><br/>
+                    <small>
+                      Paolo Mauroner, Italy
+                    </small>
+                  </center>
+                  <blockquote>
+
+                    <i class="icon-quote-left smaller-60 blue"></i> <b>The DomCop support team is the best I've ever found, fast and friendly and always available to add new features to <b>give us customers the best experience</b>! The price and impressive service make me feel at home with DomCop. If you try the free trial you will never go away <i
+                              class="icon-quote-right smaller-60 blue"></i>
+
+                  </blockquote>
+                
+              </div><!-- /widget-body -->
+
+
+            </div><!-- /signup-box -->
+          </div><!-- /position-relative -->
+        </div>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div>
+</div><!-- /.main-container -->
+
+<!-- basic scripts -->
+
+<!--[if !IE]> -->
+
+<script type="text/javascript">
+  window.jQuery || document.write("<script src='https://www.domcop.com/assets/js/jquery-2.0.3.min.js'>" + "<" + "/script>");
+</script>
+
+<!-- <![endif]-->
+
+<!--[if IE]>
+<script type="text/javascript">
+  window.jQuery || document.write("<script src='https://www.domcop.com/assets/js/jquery-1.10.2.min.js'>" + "<" + "/script>");
+</script>
+<![endif]-->
+
+<script>
+  
+  window.DC = window.DC || {};
+  
+  DC.RecaptchaEnabled = true;
+</script>
+
+<script type="text/javascript">
+  if ("ontouchend" in document) document.write("<script src='https://www.domcop.com/assets/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
+</script>
+
+<!-- inline scripts related to this page -->
+
+
+<script type="text/javascript">
+  function show_box(id) {
+    jQuery('.widget-box.visible').removeClass('visible');
+    jQuery('#' + id).addClass('visible');
+    window["dcformselected"] = id;
+    //grecaptcha.reset();
+  }
+
+
+  
+    
+
+  function CheckLoginFormValues() {
+    if (!CheckEmail(document.loginForm.email.value)) {
+      alert('Please enter an Email Address');
+      document.loginForm.email.focus();
+      return false;
+    }
+
+    if (document.loginForm.password.value == '') {
+      alert('Please enter a Password');
+      document.loginForm.password.focus();
+      return false;
+    }
+
+    return true;
+
+  }
+
+  function CheckEmail(emailAddress) {
+    if (emailAddress == '') return false;
+    var emailReg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return emailReg.test(emailAddress);
+  }
+
+  function forgotPassword() {
+    document.location = 'https://www.domcop.com/forgotPassword?email=' + document.loginForm.email.value;
+  }
+
+  function CheckRegisterFormValues() {
+
+    if (!CheckEmail(document.registerForm.emailAddress.value)) {
+      alert('Please enter an Email Address');
+      document.registerForm.emailAddress.focus();
+      return false;
+    }
+
+    if (document.registerForm.password.value == '') {
+      alert('Please enter a Password');
+      document.registerForm.password.focus();
+      return false;
+    }
+
+    return true;
+
+  }
+
+  function CheckForgotPasswordFormValues() {
+    if (!CheckEmail(document.forgotPasswordForm.email.value)) {
+      alert('Please enter an Email Address');
+      document.forgotPasswordForm.email.focus();
+      return false;
+    }
+
+    return true;
+
+  }
+
+  function onloadCallback() {
+    $('.grecaptcha-badge').parent().css({display: 'none'});
+  }
+
+  ["button-submit-register-form", "button-submit-login-form", "button-submit-forgot-password-form"].forEach(function (value) {
+    $(`#${value}`).click(function (e) {
+      e.preventDefault();
+      if (DC.RecaptchaEnabled) {
+        grecaptcha.execute();
+      } else {
+        SubmitAppropriateForm()
+      }
+    })
+  });
+
+  function createRecaptchaInput(then) {
+    var interval = setInterval(function () {
+      if (typeof grecaptcha !== 'undefined' && typeof grecaptcha.getResponse !== 'undefined')
+        grecaptchaResponse = grecaptcha.getResponse();
+      if (grecaptchaResponse.length > 0) {
+
+        var grecaptchaResponseInputField = $('<input/>', {name: 'g-recaptcha-response', type: 'hidden'});
+        grecaptchaResponseInputField.val(grecaptchaResponse);
+        clearInterval(interval);
+        then(grecaptchaResponseInputField);
+      }
+    }, 100);
+  }
+
+  function SubmitAppropriateForm() {
+    if ($('#login-box').hasClass('visible')) {
+      if (!CheckLoginFormValues()) {
+        grecaptcha.reset();
+        return;
+      }
+
+      if (DC.RecaptchaEnabled) {
+        createRecaptchaInput(function (input) {
+          $('form[name="loginForm"]').append(input);
+          document.loginForm.submit();
+        });
+      } else {
+        document.loginForm.submit();
+      }
+
+
+    } else if ($('#signup-box').hasClass('visible')) {
+      if (!CheckRegisterFormValues()) {
+        grecaptcha.reset();
+        return;
+      }
+
+      if (DC.RecaptchaEnabled) {
+        createRecaptchaInput(function (input) {
+          $('form[name="registerForm"]').append(input);
+          document.registerForm.submit();
+        });
+      } else {
+        document.registerForm.submit();
+      }
+
+    } else if ($('#forgot-box').hasClass('visible')) {
+      if (!CheckForgotPasswordFormValues()) {
+        grecaptcha.reset();
+        return;
+      }
+
+      if (DC.RecaptchaEnabled) {
+        createRecaptchaInput(function (input) {
+          $('form[name="forgotPasswordForm"]').append(input);
+          document.forgotPasswordForm.submit();
+        });
+      } else {
+        document.forgotPasswordForm.submit();
+      }
+    }
+
+  }
+
+
+</script>
+
+
+</body>
+</html>
