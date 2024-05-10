@@ -1,0 +1,11 @@
+bs4 
+requests 
+cloudscraper 
+pandas
+tenacity
+selenium 
+fake_useragent 
+country_converter 
+nltk
+chromedriver-autoinstaller
+
